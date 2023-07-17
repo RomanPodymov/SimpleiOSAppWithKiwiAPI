@@ -1,0 +1,13 @@
+name: SimpleiOSAppWithKiwiAPI
+options:
+  bundleIdPrefix: com.simpleiosappwithkiwiapi
+  deploymentTarget:
+    iOS: 14.0
+  xcodeVersion: "14.3.1"
+targets:
+  App:
+    type: application
+    platform: iOS
+    sources: [SimpleiOSAppWithKiwiAPI]
+    info:
+      path: SimpleiOSAppWithKiwiAPI/Info.plist
